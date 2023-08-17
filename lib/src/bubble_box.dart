@@ -50,6 +50,7 @@ class BubbleBox extends StatelessWidget {
     Key? key,
     required this.child,
     this.backgroundColor,
+    this.gradientBackground,
     this.maxWidth,
     this.maxHeight,
     this.widthFactor,
