@@ -1,6 +1,6 @@
 import 'dart:math' as math;
 
-import 'package:bubble_box/src/util/path_util.dart';
+import 'package:gradient_bubble_box/src/util/path_util.dart';
 import 'package:flutter/material.dart';
 
 /// 气泡方向
