@@ -1,7 +1,7 @@
-name: bubble_box
+name: gradient_bubble_box
 description: A powerful bubble box, which implements basic bubble, border, dotted line, gradient color, angle, adaptive width and height, bubble direction, offset, etc.
 version: 0.5.3
-homepage: https://github.com/yixiaco/bubble_box
+homepage: https://github.com/hamzaj9/gradient_bubble_box
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
