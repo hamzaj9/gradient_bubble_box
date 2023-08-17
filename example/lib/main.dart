@@ -1,6 +1,6 @@
 import 'dart:io';
 
-import 'package:bubble_box/bubble_box.dart';
+import 'package:gradient_bubble_box/bubble_box.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
