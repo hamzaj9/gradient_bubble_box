@@ -66,16 +66,18 @@ class BubbleBoxDemo extends StatelessWidget {
           children: [
             BubbleBox(
               maxWidth: MediaQuery.of(context).size.width * 0.8,
+              gradient: LinearGradient(begin: Alignment.topCenter, end: Alignment.bottomCenter, colors: <Color>[Color(0xff0079fe), Color(0xff0052ab)]),
               shape: BubbleShapeBorder(
                 border: BubbleBoxBorder(
-                  color: Colors.blue,
-                  width: 3,
+                  color: Colors.transparent,
+                  width: 0,
                 ),
-                position: const BubblePosition.center(0),
-                direction: BubbleDirection.right,
+                direction: BubbleDirection.bottom,
+                position: const BubblePosition.end(12),
               ),
-              backgroundColor: Colors.green.withOpacity(0.8),
-              child: const Text('我可以自定义边框颜色、宽度，组件的背景色，气泡的尖角位置及尖角的偏移'),
+              margin: const EdgeInsets.all(4),
+              child: const Text(
+                  'Hello :)', style: TextStyle(color: Colors.white)),
             ),
           ],
         ),
