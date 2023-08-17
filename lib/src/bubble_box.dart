@@ -10,6 +10,8 @@ class BubbleBox extends StatelessWidget {
   /// 气泡背景颜色
   final Color? backgroundColor;
 
+  final Gradient? gradientBackground;
+
   /// 基于基础内边距的距离边框内边距
   final EdgeInsets padding;
 
@@ -68,6 +70,7 @@ class BubbleBox extends StatelessWidget {
       padding: padding.add(shape?.dimensions ?? EdgeInsets.zero),
       child: child,
       color: Colors.transparent, // 使ShaderMask渲染时能够填充满背景
+      decoration: gradientBackground != null ? BoxDecoration(gradient: gradientBackground) : null,
     );
     // 渐变
     if (gradient != null) {
